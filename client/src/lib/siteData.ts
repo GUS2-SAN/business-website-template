@@ -16,9 +16,14 @@ export const company = {
     "Oferecemos soluções completas para empresas que querem crescer com consistência, credibilidade e resultados mensuráveis.",
   primaryCTA: "Solicitar Orçamento",
   secondaryCTA: "Conhecer Serviços",
-  whatsapp: "5511999999999",
+  whatsapp: "5579988228105",
   email: "contato@nexussolucoes.com.br",
-  phone: "(11) 9 9999-9999",
+  phone: "(79) 9 8822-8105",
+  developer: {
+    name: "Augusto Santana",
+    role: "Desenvolvedor Web",
+    portfolio: true,
+  },
   address: "Av. Paulista, 1000 — Sala 1010, São Paulo — SP",
   workingHours: "Segunda a Sexta, das 8h às 18h",
   socialLinks: {

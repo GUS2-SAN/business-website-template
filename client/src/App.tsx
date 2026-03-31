@@ -22,8 +22,8 @@ import FAQ from "./pages/FAQ";
 import Contato from "./pages/Contato";
 import Privacidade from "./pages/Privacidade";
 import Termos from "./pages/Termos";
-
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <>
       <Header />

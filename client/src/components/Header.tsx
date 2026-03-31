@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X, Phone } from "lucide-react";
 import { company } from "@/lib/siteData";
+import { Badge } from "@/components/ui/badge";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -49,15 +50,22 @@ export default function Header() {
             <div className="w-9 h-9 rounded-lg flex items-center justify-center" style={{ backgroundColor: "oklch(0.28 0.09 250)" }}>
               <span className="text-white font-bold text-sm" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>N</span>
             </div>
-            <span
-              className="text-xl font-bold tracking-tight"
-              style={{
-                fontFamily: "'Space Grotesk', sans-serif",
-                color: isScrolled ? "oklch(0.18 0.02 250)" : "oklch(0.18 0.02 250)",
-              }}
-            >
-              {company.name}
-            </span>
+            <div>
+              <span
+                className="text-xl font-bold tracking-tight block"
+                style={{
+                  fontFamily: "'Space Grotesk', sans-serif",
+                  color: isScrolled ? "oklch(0.18 0.02 250)" : "oklch(0.18 0.02 250)",
+                }}
+              >
+                {company.name}
+              </span>
+              {company.developer?.portfolio && (
+                <span className="text-xs font-medium" style={{ color: "oklch(0.68 0.19 45)" }}>
+                  Portfólio de {company.developer.name}
+                </span>
+              )}
+            </div>
           </Link>
 
           {/* Desktop Nav */}

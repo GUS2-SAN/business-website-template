@@ -162,9 +162,16 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div style={{ borderTop: "1px solid oklch(0.28 0.09 250)" }}>
         <div className="container py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs" style={{ color: "oklch(0.60 0.03 250)" }}>
-            © {currentYear} {company.name}. Todos os direitos reservados.
-          </p>
+          <div>
+            <p className="text-xs" style={{ color: "oklch(0.60 0.03 250)" }}>
+              © {currentYear} {company.name}. Todos os direitos reservados.
+            </p>
+            {company.developer?.portfolio && (
+              <p className="text-xs mt-1" style={{ color: "oklch(0.68 0.19 45)" }}>
+                Desenvolvido por <span className="font-semibold">{company.developer.name}</span> — Desenvolvedor Web
+              </p>
+            )}
+          </div>
           <div className="flex gap-4">
             <Link href="/privacidade" className="text-xs hover:text-white transition-colors" style={{ color: "oklch(0.60 0.03 250)" }}>
               Política de Privacidade

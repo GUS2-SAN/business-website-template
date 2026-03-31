@@ -79,6 +79,21 @@ export default function Home() {
 
         <div className="container relative z-10 py-20">
           <div className="max-w-2xl">
+            {company.developer?.portfolio && (
+              <div
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-3"
+                style={{
+                  backgroundColor: "oklch(0.28 0.09 250 / 0.2)",
+                  border: "1px solid oklch(0.28 0.09 250 / 0.5)",
+                  color: "oklch(0.75 0.03 250)",
+                  fontFamily: "'Space Grotesk', sans-serif",
+                }}
+              >
+                <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "oklch(0.28 0.09 250)" }} />
+                Portfólio de {company.developer.name} — Desenvolvedor Web
+              </div>
+            )}
+
             {/* Badge */}
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-6"
