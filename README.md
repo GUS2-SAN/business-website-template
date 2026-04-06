@@ -2,13 +2,13 @@
 
 Um website institucional moderno e responsivo desenvolvido com **React + TypeScript + Tailwind CSS**, seguindo a filosofia de design **Bold Conversion Machine**. O site foi criado como portfólio profissional de **Augusto Santana**, desenvolvedor web.
 
-## 🎯 Visão Geral
+## Visão Geral
 
 Este projeto é um template completo de website institucional para empresas de consultoria, serviços e tecnologia. Inclui múltiplas páginas otimizadas para conversão, formulário de contato funcional, integração com WhatsApp e design responsivo.
 
 **Link ao vivo:** [businesstmp-3fnzknkt.manus.space](https://businesstmp-3fnzknkt.manus.space)
 
-## ✨ Características Principais
+## Características Principais
 
 - ✅ **9 páginas completas**: Home, Sobre, Serviços, Cases, Depoimentos, FAQ, Contato, Privacidade, Termos
 - ✅ **Design responsivo** e otimizado para mobile
@@ -21,7 +21,7 @@ Este projeto é um template completo de website institucional para empresas de c
 - ✅ **Tailwind CSS 4** com cores OKLCH
 - ✅ **Componentes reutilizáveis** e modulares
 
-## 🎨 Design System
+## Design System
 
 ### Paleta de Cores
 - **Azul Índigo Profundo**: `oklch(0.28 0.09 250)` — Confiança e corporatividade
@@ -39,7 +39,7 @@ Este projeto é um template completo de website institucional para empresas de c
 - Accordion interativo para FAQ
 - Cards com borda lateral colorida
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 business-website-template/
@@ -76,7 +76,7 @@ business-website-template/
 └── package.json
 ```
 
-## 🚀 Como Começar
+## Como Começar
 
 ### Pré-requisitos
 - Node.js 18+ 
@@ -98,7 +98,7 @@ pnpm dev
 
 O site estará disponível em `http://localhost:5173`
 
-## 📝 Personalização
+## Personalização
 
 ### Editar Conteúdo
 Todo o conteúdo do site está centralizado em um único arquivo. Edite apenas:
@@ -135,7 +135,7 @@ Edite as cores OKLCH em `client/src/index.css` e nos componentes:
 --color-accent: oklch(0.68 0.19 45);      /* Laranja */
 ```
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Versão | Uso |
 |---|---|---|
@@ -208,8 +208,6 @@ Todos os botões "Solicitar Orçamento" e "Falar com especialista" abrem o Whats
 https://wa.me/5579988228105?text=Olá! Tenho interesse em...
 ```
 
-**Número configurado:** (79) 9 8822-8105 (Augusto Santana)
-
 ## 📊 SEO e Performance
 
 - ✅ Meta tags semânticas (title, description, og:*)
@@ -219,7 +217,7 @@ https://wa.me/5579988228105?text=Olá! Tenho interesse em...
 - ✅ Minificação automática com Vite
 - ✅ Suporte a PWA (manifesto básico)
 
-## 🧪 Testes
+## Testes
 
 ```bash
 # Executar testes
@@ -229,7 +227,7 @@ pnpm test
 pnpm test:coverage
 ```
 
-## 🚢 Deploy
+## Deploy
 
 ### Opção 1: Manus (Recomendado)
 O projeto está hospedado na plataforma Manus com domínio automático:
@@ -247,28 +245,26 @@ npm run build
 # Fazer upload da pasta 'dist' no Netlify
 ```
 
-## 📄 Licença
+## Licença
 
 Este projeto é fornecido como portfólio profissional. Sinta-se livre para usar como base para seus próprios projetos.
 
 ## 👤 Desenvolvedor
 
 **Augusto Santana** — Desenvolvedor Web  
-📧 Email: contato@nexussolucoes.com.br  
-📱 WhatsApp: (79) 9 8822-8105  
-🔗 LinkedIn: [Seu LinkedIn]  
-🌐 Portfolio: [businesstmp-3fnzknkt.manus.space](https://businesstmp-3fnzknkt.manus.space)
+Email: augusto.santana009@gmail.com  
+WhatsApp: (79) 98822-8105  
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Sugestões e melhorias são bem-vindas! Abra uma issue ou faça um pull request.
 
-## 📞 Suporte
+## Suporte
 
 Para dúvidas ou sugestões sobre o projeto, entre em contato via:
-- WhatsApp: (79) 9 8822-8105
-- Email: contato@nexussolucoes.com.br
+- WhatsApp: (79) 98822-8105
+- Email: augusto.santana009@gmail.com
 
 ---
 
-**Desenvolvido com ❤️ por Augusto Santana**
+**Desenvolvido por Augusto Santana**
